@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #666060;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    color: #000;
+    font-family: "poopins",sans-serif;
+}
+.box{
+    width: 30%;
+    height: 85%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    background: #666060;
+    box-shadow:  -24px 24px 48px #333030,
+             24px -24px 48px #999090;
+             transition: .5s;
+}
+.bar{
+    font-size: 1.5em;
+    font-weight: 800px;
+    margin: 20px;
+    transition: .5s;
+}
+#bar:hover{
+    color: #FFF;
+    cursor: pointer;
+}
+#love{
+    float: right;
+    margin-right: -5px;
+}
+#love:hover{
+    color: #FFF;
+    cursor: pointer;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: 	#000;
+    background-image: url(Image/Ak\ in\ jacket.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    margin: auto;
+    outline: 2px solid 	#000;
+    outline-offset: 5px;
+    transition: .5s;
+}
+.img:hover{
+    background-color:#FFF;
+    outline-color: #FFF;
+    cursor: copy;
+}
+.name{
+    text-align: center;
+    margin-top: 15px;
+    font-family: cursive;
+    letter-spacing: 5px;
+}
+img{
+    position: absolute;
+}
+.intro{
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: 400;
+    transition: .5s;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.intro::first-letter{
+    font-size: 1.5em;
+    color: white;
+    font-family: cursive;
+    font-weight: 800;
+}
+.btn-social{
+    margin-top: 15px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+button{
+    width: 10vw;
+    height: 7vh;
+    border: none;
+    border-radius: 4px;
+    background-color: #000;
+    color: white;
+    font-size: 1em;
+    font-weight: 800;
+    transition: .5s;
+}
+button:hover{
+     cursor: pointer;
+     border-radius: 20px;
+     background-color: white;
+     color: black;
+     letter-spacing: 2px;
+     text-transform: lowercase;
+}
+.social{
+    margin-top: 20%;
+    text-align: center;
+    transition: .5s;
+}
+.social a{
+    color: #FFF;
+    font-size: 1.2em;
+    margin: 0 15px;
+}
+#you{
+    padding: 10px 10px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+#fac{
+    padding: 10px 10px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+#ins{
+    padding: 10px 10px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+#git{
+        padding: 10px 10px;
+        background-color: rgba(0,0,0,0.5);
+        border-radius: 50%;
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+#you:hover{
+    color: #FF0000;
+    background-color: white;
+}
+#fac:hover{
+    color: #4267B2;
+    background-color: white;
+}
+#ins:hover{
+     background-color: white;
+     color: #f30367;
+}
+#git:hover{
+    background-color: white;
+}
